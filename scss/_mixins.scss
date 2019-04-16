@@ -1,0 +1,21 @@
+@mixin st_button {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: $color-base;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.5); 
+    // padding: 20px 0;
+    padding: 0 25px;
+    // padding-right: 45px;
+    width: 400px;
+    // border-right: solid 1px $color-base;
+    background-color: $color-white;
+    background-size: contain;
+}
+
+// @mixin page-title($font-size) {
+//     font-size: $font-size;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     letter-spacing: 8.64px;
+// }

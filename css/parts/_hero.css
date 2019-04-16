@@ -1,0 +1,11 @@
+.top-page {
+  margin: 50px; }
+  .top-page span {
+    font-size: 40px; }
+  .top-page__menu li {
+    display: inline-block;
+    width: 148px; }
+  .top-page__menu a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700; }

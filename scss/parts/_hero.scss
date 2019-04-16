@@ -1,0 +1,260 @@
+// Page 1
+
+.top-page {
+    padding-top: 45px;
+    min-height: 100vh;
+    background-image: url('#{$path-img}background_top.jpg');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    span {
+        float: left;
+        font-size: 40px;
+        font-family: $font-pacifico;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            display: flex;
+        }
+    }
+    li + li {
+        margin-left: 30px;
+    }
+    &__menu li {
+        float: right;
+        list-style: none;
+
+        a:hover {
+            content: '';
+            display: block;
+            // position: relative;
+            width: fit-content;
+            // top: 2px;
+            height: 3px;
+            background-color: $color-orange;
+        }
+    }
+    &__menu a {
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-base;
+        font-weight: 700;
+    }
+
+    &__center {
+        margin-top: 10%;
+
+        p {
+            margin-top: 30px;
+            width: 365px;
+        }
+        &--button {
+            display: block;
+            text-decoration: none;
+            margin-top: 30px;
+            font-weight: 700;
+            color: $color-white;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.5); 
+            padding: 20px 0;
+            padding-left: 25px;
+            padding-right: 45px;
+            width: 200px;
+            background-color: $color-orange;
+        }
+    }
+    &__scroll {
+        position: absolute;
+        left: 50%;
+        bottom: 5%;
+        margin-left: -12px;
+        width: 23px;
+        height: 37px;
+        background-image: url('#{$path-img}/scroll.png');
+        background-size: contain;
+    }
+}
+
+// End Page 1
+
+// Page 2
+
+.page2 {
+    img {
+        position: absolute;
+        top: 105%;
+    }
+    padding-top: 170px;
+    min-height: 100vh;
+    // width: 1270px;
+    color: $color-white;
+    background-color: #00bcbc;
+    p {
+        width: 510px;
+        color: $color-white;
+    }
+    p + p {
+        margin-top: 20px;
+    }
+}
+
+// End Page 2
+
+// Page 3
+
+.page3 {
+    padding: 10% 0;
+    background-color: #70bfff;
+    background-image: url(#{$path-img}/services-bg.png);
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-size: 40%;    
+
+    h2 {
+        position: absolute;
+        color: $color-white;
+        left: 50%;
+        top: 250%;
+    }
+    a + a {
+        margin-top: 30px;
+    }
+    &__button {
+        @include st_button;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        // background-image: url(#{$path-img}/icon_shopping.png);
+        div {
+            width: 50%;
+        }
+        span {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 80px;
+            background-color: $color-base;        
+        }
+        img {
+            width: 15%;
+        }
+    }
+}
+
+// End Page 3
+
+.page4 {
+    padding: 95px 0;
+    background-color: $color-yellow;
+    text-align: center;
+
+    h2 {
+        width: 585px;
+    }
+    p {
+        margin-top: 35px;
+        width: 585px;
+    }
+    &__button {
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: $color-white;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.5); 
+        padding: 20px 0;
+        width: 200px;
+        background-color: #5585A2;
+    }
+}
+
+// .page3 .page3__button:before {
+//     display: inline;
+//     content: '';
+//     position: relative;
+//     display: block;
+//     bottom: 20px;
+//     left: 80px;
+//     width: 1px;
+//     height: 80px;
+//     background-color: $color-base;
+
+// }
+
+// End Page 3
+
+// .hero {
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     min-height: 100vh;
+//     background-image: url('#{$path-img}hero-bg.jpg');
+//     background-repeat: no-repeat;
+//     background-position: top right;
+//     background-size: cover;
+//     color: $color-white;
+
+//     &__logo {
+//         display: inline-block;
+//         margin-bottom: 90px;
+//     }
+
+//     &__title {
+//         margin-bottom: 50px;
+//     }
+
+//     &__description {
+//         font-size: 15px;
+//         line-height: 29px;
+//         text-transform: uppercase;
+//         letter-spacing: 0.9px;
+//     }
+
+//     &__scroll {
+//         position: absolute;
+//         left: 50%;
+//         bottom: 5%;
+//         margin-left: -12px;
+//         width: 23px;
+//         height: 37px;
+//         background-image: url('#{$path-img}/scroll.svg');
+//         background-size: contain;
+//     }
+// }
+
+// .section-box {
+//     text-align: center;
+//     &__inside-box {
+//         border: solid 2px $color-base;
+//     }
+//     p {
+//         letter-spacing: 0.6px;
+//     }
+//     p:first-child {
+//         padding-top: 75px;
+//     }
+//     p + p {
+//         margin-top: 30px;
+//         margin-bottom: 30px;
+//         padding: 0 90px;
+//     }
+//     &:before {
+//         content: 'ABOUT US';
+//         position: absolute;
+//         // display: flex;
+//         font-size: 34px;
+//         width: 210px;
+//         bottom: -30%;
+//         left: 42%;
+//         background-color: $color-white;     
+//     }
+    
+// }

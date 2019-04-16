@@ -1,0 +1,182 @@
+h2 {
+  font-size: 90px;
+  font-weight: 900px; }
+
+h3 {
+  font-size: 60px;
+  font-weight: 900; }
+
+p {
+  font-size: 17px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #262626; }
+
+.grid {
+  margin: 0 165px; }
+
+.top-page {
+  padding-top: 45px;
+  min-height: 100vh;
+  background-image: url("../img/background_top.jpg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .top-page span {
+    float: left;
+    font-size: 40px;
+    font-family: "Pacifico", cursive; }
+  .top-page .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .top-page .header ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .top-page li + li {
+    margin-left: 30px; }
+  .top-page__menu li {
+    float: right;
+    list-style: none; }
+    .top-page__menu li a:hover {
+      content: '';
+      display: block;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      height: 3px;
+      background-color: #ff6033; }
+  .top-page__menu a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #262626;
+    font-weight: 700; }
+  .top-page__center {
+    margin-top: 10%; }
+    .top-page__center p {
+      margin-top: 30px;
+      width: 365px; }
+    .top-page__center--button {
+      display: block;
+      text-decoration: none;
+      margin-top: 30px;
+      font-weight: 700;
+      color: #fff;
+      -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+      padding: 20px 0;
+      padding-left: 25px;
+      padding-right: 45px;
+      width: 200px;
+      background-color: #ff6033; }
+  .top-page__scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -12px;
+    width: 23px;
+    height: 37px;
+    background-image: url("../img//scroll.png");
+    background-size: contain; }
+
+.page2 {
+  padding-top: 170px;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #00bcbc; }
+  .page2 img {
+    position: absolute;
+    top: 105%; }
+  .page2 p {
+    width: 510px;
+    color: #fff; }
+  .page2 p + p {
+    margin-top: 20px; }
+
+.page3 {
+  padding: 10% 0;
+  background-color: #70bfff;
+  background-image: url(../img//services-bg.png);
+  background-repeat: no-repeat;
+  background-position: 80% center;
+  background-size: 40%; }
+  .page3 h2 {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 250%; }
+  .page3 a + a {
+    margin-top: 30px; }
+  .page3__button {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #262626;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 0 25px;
+    width: 400px;
+    background-color: #fff;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+    .page3__button div {
+      width: 50%; }
+    .page3__button span {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 80px;
+      background-color: #262626; }
+    .page3__button img {
+      width: 15%; }
+
+.page4 {
+  padding: 95px 0;
+  background-color: #FFE92F;
+  text-align: center; }
+  .page4 h2 {
+    width: 585px; }
+  .page4 p {
+    margin-top: 35px;
+    width: 585px; }
+  .page4__button {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    width: 200px;
+    background-color: #5585A2; }
